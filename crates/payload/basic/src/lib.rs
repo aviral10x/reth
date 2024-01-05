@@ -30,8 +30,8 @@ use tracing::{debug, trace, warn};
 
 use reth_interfaces::RethResult;
 use reth_payload_builder::{
-    database::CachedReads, error::PayloadBuilderError, BuiltPayload, KeepPayloadJobAlive,
-    PayloadBuilderAttributes, PayloadId, PayloadJob, PayloadJobGenerator,
+    database::CachedReads, error::PayloadBuilderError, BuiltPayload, EngineTypes,
+    KeepPayloadJobAlive, PayloadBuilderAttributes, PayloadId, PayloadJob, PayloadJobGenerator,
 };
 use reth_primitives::{
     bytes::BytesMut,
